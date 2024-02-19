@@ -16,7 +16,7 @@ import { WiDayCloudyWindy } from "react-icons/wi";
 const Home = () => {
 
     //key provided by open weather map api
-    const KEY = '2104f8af3d1b1752a7d7a45ecfb2d9b1';
+    const KEY = '';
 
     const [weatherData, setWeatherData] = useState(null);
     const [city, setCity] = useState('homs')
