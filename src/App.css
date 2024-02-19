@@ -1,0 +1,42 @@
+.back{
+  background-image: url('./assets/www.jpg');
+  background-size: cover;
+  height: 100%;
+  padding: 35px 30px 30px 30px;
+}
+.day{
+  box-shadow: 1px 4px 4px rgb(202, 202, 202);
+  border-radius: 30px;
+  padding: 10px;
+  color: rgb(0, 27, 116);
+  background-color:  rgba(230, 243, 255, 0.767);
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+.day.today{
+  font-size: 20px;
+  text-align: center;
+  width: 450px;
+}
+.title{
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman';
+  font-size: 25px;
+  font-weight: 600;
+}
+.img{
+  width: 60px;
+  height: 60px;
+}
+.sppinerdiv{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date{
+  font-size: 20px;
+  color: rgb(0, 27, 116);
+  text-shadow: 1px 1px rgb(189, 189, 189);
+}
